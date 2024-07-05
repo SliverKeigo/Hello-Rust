@@ -14,5 +14,5 @@ fn main() {
     // 字符: 是字符串的基本組成 也就是單個字符或字 UTF-8作為底層編碼,包含數字 字母 Unicode 和 其他特殊字符
     let c:char = 'R';
 
-    println!("{}", c.len());
+    println!("{}", c);
 }
