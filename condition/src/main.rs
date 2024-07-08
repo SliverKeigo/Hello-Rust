@@ -16,6 +16,8 @@ fn main() {
         println!("You have a discount of 10%!");
     }else if total > 200.00 {
         println!("You have a discount of 5%!");
+    }else {
+        println!("No discount!");
     }
 
 
