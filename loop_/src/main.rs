@@ -19,11 +19,6 @@ fn main() {
         "Go",
     ];
 
-    let mut study_list2 = vec![
-        "Java",
-        "Vue",
-    ];
-
     // iter() 每次迭代是借用集合中的一個元素 元素本身不會被改變 循環之後還可以使用
     for name in study_list.iter() {
         match name {
@@ -43,6 +38,11 @@ fn main() {
             _ => println!("{} is a language", study),
         }
     }
+
+    let mut study_list2 = vec![
+        "Java",
+        "Vue",
+    ];
 
     for study in study_list2.iter_mut() {
         *study = match study {
